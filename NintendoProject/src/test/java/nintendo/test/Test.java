@@ -1,15 +1,18 @@
 package nintendo.test;
 
+import java.time.LocalDate;
+
 import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
+
 public class Test {
 
 	public static void main(String[] args) {
 
-		Console nintendoSwitch = new Console("Nintendo Switch");
+		Console nintendoSwitch = new Console("Nintendo Switch",220,LocalDate.parse("2017-03-03"));
 		
 		Jeu hollowKnight = new Jeu("Hollow Knight", nintendoSwitch);
 		Jeu zeldaBOTW = new Jeu("Zelda Breath of the Wild", nintendoSwitch);
@@ -22,5 +25,6 @@ public class Test {
 		Client client1 = new Client("John","Doe");
 		Client client2 = new Client("jane", "Doe");
 	}
+
 
 }
