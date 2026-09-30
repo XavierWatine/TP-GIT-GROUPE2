@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -14,7 +15,7 @@ public class Test {
 		Jeu pokemonArceus = new Jeu("Pokemon Legend Arceus", nintendoSwitch);
 		Jeu animalCrossing = new Jeu("Animal crossing", nintendoSwitch);
 		Jeu marioKart = new Jeu("Mario Kart", nintendoSwitch);
-		
+		Boutique Micromania = new Boutique("Micromania", "24 Avenue du Général Leclerc, Paris");
 		
 	}
 
