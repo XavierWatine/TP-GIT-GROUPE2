@@ -1,10 +1,7 @@
 package nintendo.test;
 
-<<<<<<< HEAD
 import nintendo.model.Boutique;
-=======
 import nintendo.model.Client;
->>>>>>> origin/main
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -19,14 +16,11 @@ public class Test {
 		Jeu pokemonArceus = new Jeu("Pokemon Legend Arceus", nintendoSwitch);
 		Jeu animalCrossing = new Jeu("Animal crossing", nintendoSwitch);
 		Jeu marioKart = new Jeu("Mario Kart", nintendoSwitch);
-<<<<<<< HEAD
 		Boutique Micromania = new Boutique("Micromania", "24 Avenue du Général Leclerc, Paris");
 		
-=======
 		
 		Client client1 = new Client("John","Doe");
 		Client client2 = new Client("jane", "Doe");
->>>>>>> origin/main
 	}
 
 }
