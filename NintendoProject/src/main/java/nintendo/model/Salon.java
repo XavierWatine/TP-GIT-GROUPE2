@@ -2,9 +2,11 @@ package nintendo.model;
 
 public class Salon extends Console{
 
-	@Override
-	public String toString() {
-		return "Salon []";
+
+
+	public Salon(String nom) {
+		super(nom);
+		// TODO Auto-generated constructor stub
 	}
 
 	
