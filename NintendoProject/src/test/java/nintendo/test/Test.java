@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -15,7 +16,8 @@ public class Test {
 		Jeu animalCrossing = new Jeu("Animal crossing", nintendoSwitch);
 		Jeu marioKart = new Jeu("Mario Kart", nintendoSwitch);
 		
-		
+		Client client1 = new Client("John","Doe");
+		Client client2 = new Client("jane", "Doe");
 	}
 
 }
