@@ -1,10 +1,21 @@
 package nintendo.test;
 
+import nintendo.model.Console;
+import nintendo.model.Jeu;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Console nintendoSwitch = new Console("Nintendo Switch");
+		
+		Jeu hollowKnight = new Jeu("Hollow Knight", nintendoSwitch);
+		Jeu zeldaBOTW = new Jeu("Zelda Breath of the Wild", nintendoSwitch);
+		Jeu pokemonArceus = new Jeu("Pokemon Legend Arceus", nintendoSwitch);
+		Jeu animalCrossing = new Jeu("Animal crossing", nintendoSwitch);
+		Jeu marioKart = new Jeu("Mario Kart", nintendoSwitch);
+		
+		
 	}
 
 }
