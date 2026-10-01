@@ -14,8 +14,8 @@ import nintendo.model.Achat;
 
 import nintendo.model.Boutique;
 import nintendo.model.Client;
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
-import nintendo.model.Salon;
 
 
 public class Test {
@@ -23,7 +23,7 @@ public class Test {
 	public static void main(String[] args) {
 
 
-		Salon nintendoSwitch = new Salon("Nintendo Switch",220,LocalDate.parse("2017-03-03"));
+		Hybride nintendoSwitch = new Hybride("Nintendo Switch",220,LocalDate.parse("2017-03-03"));
 
 
 		List<Achat> listAchats = new ArrayList<>();
@@ -38,8 +38,18 @@ public class Test {
 		Jeu animalCrossing = new Jeu("Animal crossing", nintendoSwitch, Micromania);
 		Jeu marioKart = new Jeu("Mario Kart", nintendoSwitch, Micromania);
 
+		
+		listAchats.add(new Achat(hollowKnight, LocalDate.now(), 15));
+		
 		Client client1 = new Client("John","Doe",listAchats);
 		Client client2 = new Client("jane", "Doe",listAchats);
+		
+		
+		
+		
+		
+//		System.out.println(client1);
+		
 	}
 
 

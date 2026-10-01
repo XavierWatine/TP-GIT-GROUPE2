@@ -10,7 +10,7 @@ public class Achat {
 	
 	
 	
-	protected Achat(Jeu jeu, LocalDate date, int prix) {
+	public Achat(Jeu jeu, LocalDate date, int prix) {
 		this.jeu = jeu;
 		this.date = date;
 		this.prix = prix;
